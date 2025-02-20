@@ -7,7 +7,7 @@ const TodoItem = ({ note, id, handleClick }) => {
       onClick={() => handleClick(id)}
       className="overflow-clip flex flex-col gap-2 pl-2"
     >
-      <li id={id} className=" list-inside list-disc font-semibold">
+      <li id={id} className="list-decimal list-inside  font-semibold">
         {note}
       </li>
     </div>
